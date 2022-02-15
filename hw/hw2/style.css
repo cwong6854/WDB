@@ -48,11 +48,11 @@
   }
   
   .threevert {
-    height: 33.3%;
+    height: 33.3333333333%;
   }
   
   .threehoriz {
-    width: 33.3%;
+    width: 33.34%;
   }
 
   
@@ -260,37 +260,57 @@
   z-index: 2;
 }
 
-  /* Colors/ Feel free to add your own! */
-  
-  .red {
-    background-color: red;
-  }
-  
-  .orange {
-    background-color: orange;
-  }
-  
-  .yellow {
-    background-color: yellow;
-  }
-  
-  .green {
-    background-color: green;
-  }
-  
-  .blue {
-    background-color: blue;
-  }
-  
-  .lightblue {
-    background-color: lightblue;
-  }
-  
-  .purple {
-    background-color: purple;
-  }
-  
-  .white {
-    background-color: #fff;
-  }
+/* Basic colors */
+.white {
+    background: #FFFFFF;
+}
 
+.red {
+    background-color: red;
+}
+
+/* Luxembourg flag colors */
+.lux-pink {
+    background-color: #F6343F;
+}
+
+.lux-blue {
+    background-color: #00A2E1;
+}
+/* Thailand flag colors */
+
+.thai-burgundy {
+    background-color: #A51931;
+}
+
+.thai-cultured {
+    background-color: #F4F5F8;
+}
+
+.thai-sp-cadet {
+    background-color: #2D2A4A;
+}
+/* Romania's flag colors */
+
+.roman-blue {
+    background: #002b7f;
+}
+
+.roman-yellow {
+    background-color: #fcd116;
+}
+
+.roman-red {
+    background-color: #ce1126;
+}
+
+/* Greece flag colors */
+
+.greece-blue {
+    background-color: #0D5EAF;
+}
+
+/* Mexico flag colors */
+.mexico-green {
+    background-color: #006341;
+}
