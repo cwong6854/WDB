@@ -3,6 +3,7 @@
 * {
     font-family: "Montserrat", sans-serif;
     background-color: #eeeeee;
+    box-sizing: border-box;
   }
   
   #intro {
