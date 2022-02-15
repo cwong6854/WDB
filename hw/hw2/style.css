@@ -1,0 +1,296 @@
+/* Ignore following classes */
+
+* {
+    font-family: "Montserrat", sans-serif;
+    background-color: #eeeeee;
+  }
+  
+  #intro {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 50px;
+  }
+  
+  .insideborder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .para {
+    font-weight: 300;
+    margin-left: 10px;
+  }
+  
+  h2 {
+    font-size: medium;
+    font-weight: 200;
+  }
+  
+  /* Classes that you might find useful */
+  /* Note* These classes do not cover every possible case to build you flags, you will have to continue to add your own*/
+  
+  .flag {
+    height: 300px;
+    width: 500px;
+    border-style: solid;
+    margin-bottom: 5rem;
+    overflow: hidden
+  }
+  
+  .horiz {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .twovert {
+    height: 50%;
+  }
+  
+  .threevert {
+    height: 33.3%;
+  }
+  
+  .threehoriz {
+    width: 33.3%;
+  }
+
+  
+  .skinny {
+    height: 16.65%;
+  }
+
+
+  .medium-skinny {
+    height: 25%;
+    width: 100%;
+  }
+  
+  .fat {
+    height: 30%;
+  }
+  
+  .circle {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 85px;
+    top: 50px;
+  }
+
+  .img {
+    display: flex;
+    border-radius: 50%;
+    height: 100px;
+    margin-top: 50%;
+    margin-left: 15%;
+
+
+  }
+  
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 40%;
+    height: 50%;
+  }
+
+  .box-horiz {
+    width: 100%;
+    height: 20%;
+  }
+
+  .box-vert {
+    width: 20%;
+    height: 40%;
+    align-self: center;
+  }
+  .rect {
+    width: 60%;
+    height: 50%;
+  }
+
+  .rect-skinny {
+    width: 100%;
+    height: 20%;
+  }
+
+  .bottom {
+    width: 100%;
+    height: 50%;
+  }
+  
+  
+  .layer1 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+/* South African Flag's class shapes */
+  .south_africa {
+    position: relative;
+  }
+
+  .triang-black {
+    position: absolute;
+    width: 0%;
+    height: 0%;
+    top: 60px;
+    border: 90px solid transparent;
+    border-left: 160px solid black;
+    background: none;
+    z-index: 5;
+    
+
+  }
+  .triang-yellow {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    border: 120px solid transparent;
+    border-left: 200px solid #FFB81C;
+    background: none;
+    z-index: 4;
+  }
+
+  .triang-green {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 150px solid transparent;
+    border-left: 250px solid #007749;
+    background: none;
+    z-index: 3;
+  }
+
+  .triang-red {
+    position: absolute;
+    left: 29.5px;
+    top: -34.7px;
+    border: 52px solid transparent;
+    border-left: 200px solid #E03C31;
+    background: none;
+    transform: rotate(195deg);
+    z-index: 3;
+  }
+
+  .triang-blue {
+    position: absolute;
+    left: -74.5px;
+    top: 203.5px;
+    border: 120px solid transparent;
+    border-left: 220px solid #001489;
+    background: none;
+    transform: rotate(179deg);
+    z-index: 3;
+  }
+
+  .rect-red {
+    position: absolute;
+    left: 263px;
+    width: 300px;
+    height: 100px;
+    background-color: #E03C31;
+    z-index: 3;
+  }
+
+  .rect-blue {
+    position: absolute;
+    top: 200.5px;
+    left: 263px;
+    width: 300px;
+    height: 100px;
+    background-color: #001489;
+    z-index: 3;
+  }
+
+.sa_green {
+  position: relative;
+  top: 120px;
+  left: 0px;
+  border: 30px solid transparent;
+  background-color: #007749;
+  z-index: 2;
+}
+
+.sa_rect {
+  position: relative;
+  height: 30px;
+  right: 170px;
+  bottom: 40px;
+  background-color: #007749;
+  color: #007749;
+  transform: rotate(30deg); 
+  z-index: 1;
+}
+
+.sa_rect2 {
+  position: relative;
+  height: 30px;
+  top: 155px;
+  right: 160px;
+  background-color: #007749;
+  color: #007749;
+  transform: rotate(150deg); 
+  z-index: 1;
+}
+.finland {
+  position: relative;
+}
+/* Finland rectangles */
+.fin-verti {
+  position: relative;
+  left: 27%;
+  height: 100%;
+  width: 80px;
+  z-index: 1;
+  background-color: #002F6C;
+}
+
+.fin-horiz {
+  position: absolute;
+  bottom: 40%;
+  height: 80px;
+  width: 100%;
+  background: #002F6C;
+  z-index: 2;
+}
+
+  /* Colors/ Feel free to add your own! */
+  
+  .red {
+    background-color: red;
+  }
+  
+  .orange {
+    background-color: orange;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .lightblue {
+    background-color: lightblue;
+  }
+  
+  .purple {
+    background-color: purple;
+  }
+  
+  .white {
+    background-color: #fff;
+  }
+
