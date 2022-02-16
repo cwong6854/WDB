@@ -261,6 +261,47 @@
   z-index: 2;
 }
 
+/* Seychelles Shapes */
+
+.seychelles {
+  position: relative;
+}
+.sey-blue {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-top: solid 300px #003F87;
+  border-right: solid 200px transparent;
+  background: none;
+  z-index: 0;
+}
+
+.sey-yellow {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  top: 5px;
+  left: 88.5px;
+  border-top: solid 360px #FCD856;
+  border-right: solid 130px transparent;
+  background: none;
+  transform: rotate(33.4deg);
+  z-index: 2;
+}
+
+.sey-yellow2 {
+  /* position: absolute;
+  width: 0px;
+  height: 0px;
+  top: -70px;
+  left: 150px;
+  border-top: solid 360px #FCD856;
+  border-right: solid 200px transparent;
+  background: none;
+  transform: rotate(28deg);
+  z-index: 2; */
+}
+
 /* Basic colors */
 .white {
     background: #FFFFFF;
@@ -281,37 +322,37 @@
 /* Thailand flag colors */
 
 .thai-burgundy {
-    background-color: #A51931;
+  background-color: #A51931;
 }
 
 .thai-cultured {
-    background-color: #F4F5F8;
+  background-color: #F4F5F8;
 }
 
 .thai-sp-cadet {
-    background-color: #2D2A4A;
+  background-color: #2D2A4A;
 }
 /* Romania's flag colors */
 
 .roman-blue {
-    background: #002b7f;
+  background: #002b7f;
 }
 
 .roman-yellow {
-    background-color: #fcd116;
+  background-color: #fcd116;
 }
 
 .roman-red {
-    background-color: #ce1126;
+  background-color: #ce1126;
 }
 
 /* Greece flag colors */
 
 .greece-blue {
-    background-color: #0D5EAF;
+  background-color: #0D5EAF;
 }
 
 /* Mexico flag colors */
 .mexico-green {
-    background-color: #006341;
+  background-color: #006341;
 }
