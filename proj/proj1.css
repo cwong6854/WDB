@@ -30,8 +30,15 @@ button {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 2%;
-    
+    padding: 1%;
+    background-color: white;
+}
+
+.nav-button {
+    height: 100%;
+    width: auto;
+    color: black;
+    text-decoration: none;
 }
 
 /* Intro */
@@ -58,7 +65,22 @@ button {
     
 }
 /* Intro image */
-.img_intro {
+
+.intro_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 200px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+}
+
+.self-img {
     width: 449px;
     height: 430px;
     max-width: 100%;
@@ -79,7 +101,7 @@ button {
     flex-shrink: 1;
     flex-basis: 0;
     max-width: 100%;
-    min-width: 50%;
+    min-width: 40%;
 }
 
 .intro-header {
@@ -101,6 +123,7 @@ button {
 }
 
 .intro-button {
+    
     width: 80%;
     height: 60px;
     margin: 5px;
@@ -119,8 +142,6 @@ button {
     align-items: center;
     flex-direction: column;
     background-color: white;
-    width: 100vw;
-    height: 100vh;
     padding: 2%;
 }
 
@@ -135,6 +156,10 @@ button {
     padding: 16px;
 }
 
+#about-me-ref {
+    font-size: 36px;
+}
+
 /* Featured Project Section */
 
 .featured-proj-header {
@@ -142,6 +167,7 @@ button {
     justify-content: center;
     color: white;
     text-align: center;
+    font-size: 40px;
     padding: 16px;
 
 }
@@ -150,24 +176,25 @@ button {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 80vw;
-    margin: 5%;
+    width: 100vw;
 }
 
 /* Featured project list */
 
 .proj-container {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     width: 30vw;
-    height: 50vh;
-    flex: 2 1 auto;
+    height: 60vh;
+    flex: 1 1 0;
     width: min-content;
-    margin: 10px;
+    margin: 20px;
 }
 
 .proj-img {
     width: max-content;
-    height: 200px;
+    height: 30vh;
 }
 
 .featured_proj_container2 {
@@ -177,8 +204,37 @@ button {
     
 }
 
-.white-text, .white-text:link {
+/* Outro */
+.outro-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.outro-link {
+    color: white;
+}
+
+.white-text, .white-text:link  {
     color: white;
     text-decoration: none;
-
 }
+
+.outro-copyright {
+    content:"\00a9 me";
+  }
+/* Social media buttons */
+.fa {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }

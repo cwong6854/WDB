@@ -6,20 +6,21 @@
         <meta name="author" content="Curtis">
         <meta name="keywords" content="HTML, website">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Add icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Curtis Wong</title>
         <link rel="stylesheet" href="./proj1.css">
     </head>
     <body>
         <div class="nav">
-            <div class="nav-button white-text">About Me</div>
-            <div class="nav-button white-text">Portfolio</div>
-            <div class="nav-button white-text">Contact</div>
+            <a class="nav-button" href="#about-me-ref">About Me</a>
+            <a class="nav-button" href="#portfolio-ref">Portfolio</a>
+            <a class="nav-button" href="#email">Contact</a>
         </div>
         <div class="intro_container">
-            <div class="intro-break"><br></div>
             <div class="intro_content">
-                <div class="">
-                    <img class="img_intro" src="./proj1_img/linkedin_photo copy.png" alt="This is me!">
+                <div class="intro_img">
+                    <img class="self-img" src="./proj1_img/linkedin_photo copy.png" alt="This is me!">
                 </div>
                 <div class="intro_text">
                     <p class="intro-header">Hi, I'm Curtis Wong!</p>
@@ -29,7 +30,8 @@
                     <div class="intro-links">
                         <div>
                             <button class="intro-button">
-                            <a class="white-text" href="./images/Berkeley_Resume.pdf" target="_blank">Resume</a>
+                                <a class="white-text" href="./images/Berkeley_Resume.pdf" target="_blank">Resume
+                                </a>
                             </button>
                         </div>
                         <div>
@@ -80,6 +82,8 @@
                     Environments:
                 </h3>
                 <p>IntelliJ, Microsoft Visual Studio, Jupyter Hub, Mac OS, Windows</p>
+                <br>
+                <br>
             </section>
         </div>
         <!-- Featured Projects -->
@@ -143,6 +147,17 @@
             </div>
         </div>
         <br class="intro-break">
+        <!-- Outro -->
+        <div class="outro-container white-text">
+            <p>Want to Connect?</p>
+            <p>Feel free to reach out on LinkedIn or email:</p>
+            <a id="email"class="outro-link" href="mailto:cwong990@berkeley.edu">cwong990@berkeley.edu</a>
+            <br>
+            <!-- Social media buttons -->
+            <br>
+            <p class="outro-copyright">©2022 Designed by Curtis Wong</p>
+            
+        </div>
     </div>
     </body>
 </html>
