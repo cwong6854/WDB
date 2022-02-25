@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Demo 1 -->
+    <h1 id="head1">hello</h1>
+    <h2 class="body1"></h2>
+    <button onclick="openWin()">Create window</button>
+    <button onclick="resizeWin()">Resize Window</button>
+    <!-- Demo 2 -->
+    <button class="event-button">Click Me!</button>
+
+    <button id="button1">Button 1</button>
+
+    <input placeholder="type into me!" class="input-to-copy"/>
+    <p class="p-to-copy-to">Nothing has happened yet.</p>
+
+    <!-- Demo 3 -->
+    <div class="button-container">
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>4</button>
+        <button>5</button>
+    </div>
+
+    <script>
+    
+        // document.getElementsByClassName(".body1")[1].innerHTML = "helllloo!!!";
+        var myWindow;
+        function openWin() {
+            myWindow = window.open("", "", "width=150, height=200");
+        }
+
+        function resizeWin() {
+            myWindow.resizeTo(300, 300);
+            myWindow.focus();
+        }
+
+        document
+        .getElementById("button1")
+        .addEventListener("click", function (event) {
+            alert(`You clicked on ${event.target.innerText}`);
+        });
+
+        var button = document.querySelector(".event-button")
+        button.addEventListener("click", function () {
+            alert("Hey There! You look cute today!");
+        });
+
+        var input = document.querySelector(".input-to-copy");
+        var paragraph = document.querySelector(".p-to-copy-to");
+
+        input.addEventListener("keyup", function () {
+            paragraph.innerText = input.value;
+        })
+
+        document
+        .querySelector(".button-container")
+        .addEventListener("click", function (event) {
+            alert(`Hey! You clicked on button ${event.target.innerText}`);
+        });
+    </script>
+</body>
+</html>
