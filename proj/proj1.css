@@ -15,6 +15,11 @@ body {
     background-color: rgb(1, 23, 46)
 }
 
+#clickable {
+    width: max-content;
+    height: max-content;
+    display: inline-block;
+}
 button {
     border-radius: 5px;
     border-color: white;
@@ -61,7 +66,7 @@ button {
     max-height: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 10%;
+    margin-bottom: 15%;
     
 }
 /* Intro image */
