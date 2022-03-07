@@ -1,0 +1,57 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-button {
+    height: 2.5em;
+    width: 4.5em;
+    margin: 0.5em;
+    border-radius: 30px;
+    border: none;
+    background-color: #e36060;
+    box-shadow: 0 5px #d0d0d0;
+    color: white;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+/* create a hover just for search-button */
+.search-button:hover {
+    background-color: #df4a4a;
+}
+
+.search-button:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px #d0d0d0;
+    background-color: green;
+}
+
+
+.search-bar {
+    border: none;
+    outline: none;
+    background-color: #a4a0a0;
+    border-radius: 22px;
+    margin: 0.5em;
+    padding: 0.8em 1.2em;
+    color: white;
+    font-weight: 500;
+    font-size: 105%;
+    width: 30vw;
+}
+
+.icon {
+    width: 75px;
+    height: 75px;
+}
